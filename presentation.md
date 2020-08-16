@@ -1,4 +1,4 @@
-theme: Poster
+theme: Letters from Sweden, 4
 slidenumbers: true
 slide-transition: fade(0.3)
 
