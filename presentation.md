@@ -1,6 +1,6 @@
 theme: Letters from Sweden, 4
 slidenumbers: true
-slide-transition: fade(0.3)
+slide-transition: push(horizontal, 0.3)
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 
@@ -104,6 +104,7 @@ Emoji 14 will be delayed 6 months into 2022 due to COVID-19
 
 - git + emoji
 - Created by Carlos Cuesta
+- 60 emoji for categorizing commits
 
 ^ carlos, web developer in Spain
 
@@ -135,8 +136,6 @@ docs: correct spelling of CHANGELOG
 ^ contribution guidelines
 
 ---
-
-# Examples
 
 ![mas history](images/mas-history.png)
 
@@ -391,6 +390,7 @@ it makes you think more about your commit messages and contents
 - Include any special emoji used by your team
 
 ^ Encourages others to use
+^ Don't require it
 
 ---
 
@@ -418,7 +418,7 @@ git -am "🎉 First commit!"
 
 # Don't use Gitmoji Everywhere
 
-- Web content like Wikis
+- Web content like Wikis (use shortcodes instead)
 - Jenkins job names 💥
 - Pull Request titles (maybe)
 - GitHub release titles (maybe)
