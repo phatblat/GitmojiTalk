@@ -24,6 +24,10 @@ slide-transition: fade(0.3)
 
 ---
 
+![inline](images/github-profile.png)
+
+---
+
 # Practicing Gitmoji ~~will~~ _may_ help you get better at naming things
 
 ---
@@ -373,15 +377,54 @@ it makes you think more about your commit messages and contents
 - Like a label
 - Wanting to cram more emoji is a sign that your commit may not be focused
 - 🚑 > 🐛
+- no need to use platform emoji on a single-platform project
 
 ^ some emoji are similar but trump each other
 ^ ambulance is a type of bug
 
 ---
 
-# Experiment, but be consistent within the project
+# Document your use
 
-- no need to use platform emoji on a single-platform project
+- Add to `CONTRIBUTING.md`
+- Can be as simple as "we use gitmoji <link>"
+- Include any special emoji used by your team
+
+^ Encourages others to use
+
+---
+
+# Practice in a personal repo
+
+```bash
+mkdir gitmoji-playground
+cd gitmoji-playground
+git init
+touch some-file.txt
+git -am "🎉 First commit!"
+```
+
+---
+
+# Be Cognizant of Platform Support
+
+- use GitHub :shortcodes: for better compatibility
+- research support on emojipedia
+
+^ 🧰 new in Emoji 11
+^ Doesn't display on old OSes
+
+---
+
+# Don't use Gitmoji Everywhere
+
+- Web content like Wikis
+- Jenkins job names 💥
+- Pull Request titles (maybe)
+- GitHub release titles (maybe)
+
+^ Empty box shows when not supported
+^ I said I was an emoji overuser
 
 ---
 
@@ -400,7 +443,7 @@ it makes you think more about your commit messages and contents
 
 ---
 
-# Gitmoji Install
+# Gitmoji CLI Install
 
 `npm i -g gitmoji-cli`
 
