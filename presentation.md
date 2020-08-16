@@ -27,9 +27,10 @@ slide-transition: fade(0.3)
 # Overview
 
 - Emoji Primer
-- WTF?
-- Gitmoji Tour
+- Gitmoji
+  - Tour
 - Theory
+- Best Practices
 - Tools
 
 ---
@@ -71,7 +72,31 @@ slide-transition: fade(0.3)
 
 ![fill](images/gitmoji-banner.png)
 
-^ Created by Carlos Cuesta
+---
+
+# Gitmoji
+
+- git + emoji
+- Created by Carlos Cuesta
+
+^ carlos, web developer in Spain
+
+---
+
+# Conventional Commits
+
+- Gitmoji is like Conventional Commits
+- but more fun
+
+https://conventionalcommits.org/en/v1.0.0/
+
+```
+feat: allow provided config object to extend other configs
+BREAKING CHANGE: `extends` key in config file is now used for extending other config files
+refactor!: drop support for Node 6
+fix: correct minor typos in code
+docs: correct spelling of CHANGELOG
+```
 
 ---
 
@@ -212,13 +237,104 @@ slide-transition: fade(0.3)
 
 ---
 
-# Online Cheatsheet
-
-- https://gitmoji.carloscuesta.me/
+# What does this have to do with naming things?
 
 ---
 
-# Practice
+# Brain Exercise 🧠
+
+- Executive Function
+- Decision-making
+
+^ Gitmoji is an extra talk to exercise your brain a bit differently
+
+---
+
+# Executive Function
+
+an umbrella term for the neurologically-based skills involving mental control and self-regulation.
+
+- Working memory
+- Mental flexibility
+- Self-control
+- Self-monitoring
+- Planning and problem solving
+
+^ covers more than this list but these are what apply to this talk
+
+---
+
+# Working memory
+
+governs our ability to retain and manipulate distinct pieces of information over short periods of time.
+
+^ remembering what you just did and why
+
+---
+
+# Mental flexibility
+
+helps us to sustain or shift attention in response to different demands or to apply different rules in different settings.
+
+- writing code vs crafting commit message
+- **abstraction!**
+
+^ abstraction is key to communication and building bigger things, reusable code
+^ those with autism have trouble with this
+
+---
+
+# Self-control
+
+enables us to set priorities and resist impulsive actions or responses.
+
+^ resisting the urge to make changes outside the scope of your current focus
+
+---
+
+# Self-monitoring
+
+keeping track of what you’re doing
+
+^ including your actions in memory
+
+---
+
+# Planning
+
+thinking ahead of what type of changes you are going to a project
+
+^ perhaps the commit messsage could help you decide what you're going to change
+
+---
+
+# Problem solving
+
+process of investigating the given information and finding all possible solutions through invention or discovery
+
+^ you are all probably good at problem solving
+
+---
+
+# Decision-making
+
+actions taken to solve a problem
+
+- choosing a name for a variable, method or type
+- choosing an emoji to include in your commit message
+
+^ don't get stuck in analysis paralysis
+^ if it's hard, maybe the scope is too big
+
+---
+
+# TL;DR
+
+it makes you think more about your commit messages and contents
+
+---
+
+# Gitmoji Best Practices
 
 ---
 
@@ -233,12 +349,22 @@ slide-transition: fade(0.3)
 
 ---
 
+# Only for 
+
+---
+
 # Tools
 
 - gitmoji
 - macOS Character Picker
 - Karabiner-Elements
 - Rocket
+
+---
+
+# Online Cheatsheet
+
+- https://gitmoji.carloscuesta.me/
 
 ---
 
@@ -329,3 +455,4 @@ https://matthewpalmer.net/rocket/
   - [Emoji-key](https://ke-complex-modifications.pqrs.org/json/Right_option_as_emoji_key.json)
   - [source](https://github.com/pqrs-org/Karabiner-Elements)
 - [TwoHardThings](https://martinfowler.com/bliki/TwoHardThings.html) by Martin Fowler
+- [Executive functions](https://en.wikipedia.org/wiki/Executive_functions)
