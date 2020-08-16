@@ -24,6 +24,10 @@ slide-transition: fade(0.3)
 
 ---
 
+# Practicing Gitmoji ~~will~~ _may_ help you get better at naming things
+
+---
+
 # Overview
 
 - Emoji Primer
@@ -32,6 +36,13 @@ slide-transition: fade(0.3)
 - Theory
 - Best Practices
 - Tools
+
+---
+
+# Emoji
+
+a standardised set of characters that is available on iOS, Android, Windows and macOS.
+While the artwork for each emoji character varies by platform, the meaning of each symbol remains the same.
 
 ---
 
@@ -65,8 +76,19 @@ slide-transition: fade(0.3)
 
 ^ Unicode 6 was first version to include emoji
 ^ Now on a somewhat annual cadence
-^ Emoji 13 now in Android 11, maybe iOS 14.1, macOS 11.1
-^ Emoji 14 will be delayed 6 months into 2022 due to COVID-19
+^ Emoji 13 coming in Android 11, maybe iOS 14.1, macOS 11.1
+
+---
+
+# 3,304 emoji in the Unicode Standard
+
+- as of Emoji 13.0
+
+---
+
+# 😱
+
+Emoji 14 will be delayed 6 months into 2022 due to COVID-19
 
 ---
 
@@ -154,6 +176,14 @@ docs: correct spelling of CHANGELOG
 ## `:white_check_mark:`
 
 - Adding or updating tests
+
+---
+
+# ⬆️
+
+## `:arrow_up:`
+
+- Upgrading dependencies
 
 ---
 
@@ -349,7 +379,9 @@ it makes you think more about your commit messages and contents
 
 ---
 
-# Only for 
+# Experiment, but be consistent within the project
+
+- no need to use platform emoji on a single-platform project
 
 ---
 
@@ -394,7 +426,7 @@ it makes you think more about your commit messages and contents
 
 ---
 
-# Gitmoji Commit
+# Gitmoji Commit 2
 
 ![inline fit](images/gitmoji-commit2.png)
 
@@ -410,6 +442,8 @@ it makes you think more about your commit messages and contents
 
 ^ control-command-space is the macOS system shortcut for Character Viewer
 ^ up to 32 most frequently used symbols
+^ 🎉 is party popper, not :tada:
+^ click the button in upper-right corner expands sheet to full Character Viewer window
 
 ---
 
@@ -441,6 +475,10 @@ https://matthewpalmer.net/rocket/
 
 ---
 
+# Go forth and gitmojify thine commits!
+
+---
+
 # References
 
 - [What the 2021 Unicode Delay Means for Emoji Updates](https://blog.emojipedia.org/what-the-2021-unicode-delay-means-for-emoji/)
@@ -449,6 +487,11 @@ https://matthewpalmer.net/rocket/
 - [GitHub Markdown Emoji](https://gist.github.com/rxaviers/7360908)
 - [Slack Emoji Short Codes](https://emojipedia.org/slack/#:~:text=Slack%20permits%20a%20set%20of,instead%20of%20the%20emoji%20character.)
 - [Use emoji and symbols on Mac](https://support.apple.com/en-gb/guide/mac-help/mchlp1560/mac)
+
+---
+
+# References 2
+
 - [@phatblat's keyboard setup](https://people.ergodox-ez.com/ben-chatelain/)
 - [ErgoDox EZ programmable keyboards](https://ergodox-ez.com/)
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
