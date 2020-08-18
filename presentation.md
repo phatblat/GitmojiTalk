@@ -2,6 +2,10 @@ theme: Letters from Sweden, 4
 slidenumbers: true
 slide-transition: push(horizontal, 0.3)
 
+# Level up Your Git Commits with [Gitmoji](https://gitmoji.carloscuesta.me/)! 👍🏻
+
+---
+
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 
 -- Phil Karlton
@@ -20,7 +24,7 @@ slide-transition: push(horizontal, 0.3)
 
 ---
 
-## Level up Your Git Commits with Gitmoji! 👍🏻
+## Level up Your Git Commits with [Gitmoji](https://gitmoji.carloscuesta.me/)
 
 ---
 
